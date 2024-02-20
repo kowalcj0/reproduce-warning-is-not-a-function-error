@@ -1,0 +1,25 @@
+{
+ "include": [
+     "src"
+ ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "typeRoots": [
+        "node_modules/@types",
+        "node_modules"
+    ],
+    "types": [
+        "node",
+        "react",
+        "react-dom"
+    ]
+  }
+}
